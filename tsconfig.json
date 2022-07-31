@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES2020",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "paths": {
+            "@sinclair/esbuild-wasm-resolve": ["./src/index.ts"]
+        }
+    }
+}

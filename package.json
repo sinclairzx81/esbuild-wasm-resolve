@@ -1,0 +1,35 @@
+{
+  "name": "@sinclair/esbuild-wasm-resolve",
+  "version": "0.8.0",
+  "description": "File Resolution for Esbuild running in the Browser",
+  "keywords": [
+    "esbuild",
+    "wasm",
+    "resolve",
+    "file-system"
+  ],
+  "author": "sinclairzx81",
+  "license": "MIT",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinclairzx81/esbuild-wasm-resolve"
+  },
+  "scripts": {
+    "clean": "hammer task clean",
+    "format": "hammer task format",
+    "start": "hammer task start",
+    "build": "hammer task build",
+    "publish": "hammer task publish"
+  },
+  "dependencies": {
+    "esbuild-wasm": "^0.14.51"
+  },
+  "devDependencies": {
+    "@sinclair/hammer": "^0.16.4",
+    "@types/node": "^18.6.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
