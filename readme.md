@@ -14,6 +14,11 @@
 └──────────────┘                      └──────────────┘
 </pre>
 
+<br />
+<br />
+
+[![npm version](https://badge.fury.io/js/%40sinclair%2Fesbuild-wasm-resolve.svg)](https://badge.fury.io/js/%40sinclair%2Fesbuild-wasm-resolve)
+
 </div>
 
 
