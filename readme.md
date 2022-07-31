@@ -24,7 +24,7 @@
 
 ## Overview
 
-esbuild-wasm-resolve is a file resolver for esbuild-wasm. Due to Web Browsers do not having direct access to a file system, esbuild-wasm-resolve intercepts file `read` requests made by esbuild during compilation allowing applications to resolve files externally. With this mechanism, esbuild can resolve files from IndexedDB, LocalStorage, Http or any other readable device accessible to the browser.
+esbuild-wasm-resolve is a file resolver for esbuild-wasm. Due to Web Browsers not having direct access to a file system, esbuild-wasm-resolve intercepts file `read` requests made by esbuild during compilation allowing applications to resolve files externally. With this mechanism, esbuild can resolve files from IndexedDB, LocalStorage, Http or any other readable device accessible to the browser.
 
 esbuild-wasm-resolve is primarily made with editors in mind. It is offered as is to anyone who may find it of use.
 

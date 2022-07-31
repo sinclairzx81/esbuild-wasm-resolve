@@ -1,6 +1,6 @@
 {
   "name": "@sinclair/esbuild-wasm-resolve",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "File Resolution for Esbuild running in the Browser",
   "keywords": [
     "esbuild",
